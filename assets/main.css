@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:500i|Simonetta|Open+Sans&display=swap');
+
+html, body {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(255, 84, 84);
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(255, 84, 84);
+  width: 100%;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-size: 1em;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+article {
+  font-family: 'Open Sans';
+  font-size: 1em;
+  color: black;
+  text-align: justify;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+article h1 {
+  font-size: 150%;
+  font-family: 'Simonetta';
+  margin: 0;
+  padding: 0;
+}
+
+article h2 {
+  font-size: 100%;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+article a {
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 84, 84);
+  color: black;
+}
+
+article a:hover {
+  text-decoration: none;
+  background-color: rgb(255, 84, 84);
+  color: white;
+}
+
+footer a {
+  text-decoration: underline;
+  text-decoration-color: white;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(255, 84, 84);
+}
+
+article img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  display: block;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 auto;
+}
+
+
+article hr {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px;
+  border-style: dashed;
+  border-color: rgb(255, 84, 84);
+}
+
+article blockquote {
+  font-style: italic;
+  border-top: 0;
+  border-left: 5px;
+  border-right: 0;
+  border-bottom: 0;
+  border-style: solid;
+  border-color: rgb(255, 84, 84);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 10px;
+}
+
+#htext4, #htext6 {
+  font-family: 'Playfair Display';
+  font-size: 5em;
+  color: white;
+  text-align: center;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+#htext3 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#htext5 {
+  position: relative;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-size: 1em;
+  color: white;
+  text-align: justify;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+.article-header-background {
+  width: auto;
+  height: 10em;
+  background-position: center;
+  background-size: cover;
+  padding-top:2em;
+}
+
+.article-background-text {
+  margin-left:20px;
+  margin-bottom:5px;
+  padding:2px;
+  background-color: rgb(255, 84, 84);
+  color: white !important;
+  display: inline-block;
+}
+
+.article-background-text a {
+  color: white;
+}
+
+#arrow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#realarrow:hover {
+  cursor:pointer;
+}
+
+#realarrow {
+  height:50px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d8/Font_Awesome_5_solid_arrow-circle-down.svg);
+  filter: invert(100%);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+

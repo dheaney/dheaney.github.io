@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{%- if site.posts.size > 0 -%}
+  <center>
+  {%- for post in site.posts -%}
+<article>
+<div class="article-header-background" style="background-image:url({{ post.imageurl }});">
+<h1 class="article-background-text">
+<a href="{{ post.url }}">{{ post.title }}</a>
+</h1>
+<br/>
+<h2 class="article-background-text">
+{{ post.author }}
+</h2>
+<br/>
+<h2 class="article-background-text">
+{{ post.date }}
+</h2>
+</div>
+
+<br/>
+
+{{ post.content }}
+<hr/>
+</article>
+  {%- endfor -%}
+  </center>
+{%- endif -%}
+
